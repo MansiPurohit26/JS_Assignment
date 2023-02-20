@@ -30,5 +30,3 @@ fetch("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=mark
     }).catch((err) => {
         console.log(err);
     })
-    
-    
