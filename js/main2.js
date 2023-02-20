@@ -152,18 +152,3 @@ request.addEventListener('load', function () {
     document.getElementById('data').innerHTML = html;
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
