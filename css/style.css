@@ -1,0 +1,35 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+}
+
+a:hover {
+    color: black;
+}
+
+.id {
+    margin-left: 10px;
+}
+
+.name {
+    margin-left: 10px;
+}
+
+.symbol {
+    margin-left: 10px;
+    color: #0000007a;
+    text-transform: uppercase;
+}
+
+.green {
+    color: #409206;
+}
+
+.red {
+    color: #990a0a;
+}

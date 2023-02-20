@@ -1,0 +1,131 @@
+.cap-rank {
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.display-data {
+    margin-top: 30px;
+    width: 900px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-content {
+    display: flex;
+    align-items: end;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#coin {
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+#symbol {
+    font-size: 18px;
+    margin-left: 5px;
+    color: #0000007a;
+    text-transform: uppercase;
+}
+
+#price {
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+#up {
+    color: #409206;
+    font-size: 20px;
+}
+
+#up_right {
+    color: #409206;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icon {
+    border: 1px solid;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.watchlist {
+    margin-left: 10px;
+    background-color: #f0f3f0;
+    color: rgb(0, 0, 0);
+    width: 190px;
+    text-align: center;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.watchlist i {
+    font-size: 15px;
+    margin-top: 5px;
+    color: rgb(245, 188, 65);
+    margin-right: 2px;
+}
+
+.progress {
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 8px;
+    width: 380px;
+}
+
+.progress-bar {
+    background: linear-gradient(90deg, rgb(238, 200, 32) 32%, rgb(92, 187, 94) 50%) !important;
+}
+
+.progress_value {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    width: 380px;
+}
+
+.coin-detail {
+    display: flex;
+    justify-content: start;
+    gap: 35px
+}
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+hr:not([size]) {
+    height: 1px;
+}
+
+hr {
+    margin: 0%;
+}
+
+.green {
+    color: #409206;
+}
+
+.red {
+    color: #990a0a;
+}
